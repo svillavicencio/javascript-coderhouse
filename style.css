@@ -1,0 +1,32 @@
+body, html{
+
+    margin: 0;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url(https://estaticos.muyinteresante.es/uploads/images/test/5ed642ce5bafe8fdc48fbc14/test-matematicas.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: #C78C8C;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    opacity: 1;
+}
+
+h1{
+    margin-top: 3rem;
+}
+
+.button{
+    padding: .75rem;
+    background-color: #E1E0E0;
+    border: none;
+    border-radius: 2rem;
+}
+
+.button:hover{
+    background-color: yellow;
+}
